@@ -1,3 +1,10 @@
+"""
+Project: Real-Time Predictive Analytics & Sensor Monitoring System
+Frontend UI: Streamlit Dashboard
+Description: Interactive dashboard providing live sensor controls, API communication,
+             historical trend visualizations, and raw data previews.
+"""
+
 import streamlit as st
 import pandas as pd
 import requests

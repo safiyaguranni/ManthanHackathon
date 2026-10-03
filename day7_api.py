@@ -1,3 +1,10 @@
+"""
+Project: Real-Time Predictive Analytics & Sensor Monitoring System
+Backend API: FastAPI
+Description: Loads historical sensor data, trains a Random Forest classifier, 
+             and serves real-time failure predictions via HTTP POST endpoints.
+"""
+
 from fastapi import FastAPI
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
